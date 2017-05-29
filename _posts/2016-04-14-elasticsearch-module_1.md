@@ -17,9 +17,11 @@ Provee un motor de búsqueda de texto completo, distribuido y con capacidad de m
 
 ## Instalando Elasticsearch
 
+Elasticsearch cuenta con distintas versiones: 1.x, 2.x y 5.x. Por ejemplo, si quisieramos instalar la 2.4.5, VERSION deberá ser reemplazado por 2.4.5
+
 {% highlight bash  %}
-wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.2.deb
-sudo dpkg -i elasticsearch-1.7.2.deb
+wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-VERSION.deb
+sudo dpkg -i elasticsearch-VERSION.deb
 {% endhighlight %}
 
 Iniciando el servicio:
